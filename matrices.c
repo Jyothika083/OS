@@ -61,7 +61,7 @@ void coladd(int m[M][N])
     {
         for(j=0;j<N;j++)
         {
-            sum+=m[i][j];
+            sum+=m[j][i];
         }
         printf("\n%d",sum);
         sum=0;
