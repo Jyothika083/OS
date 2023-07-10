@@ -63,7 +63,7 @@ void main()
         avgwt+=wt[i];
         printf("%d\t\t%d\t\t%d\t\t%d\t\t%d\t\t%d\n",pid[i],type[i],arr[i],burst[i],wt[i],ta[i]);
     }
-    printf("average waiting time =%f",avgwt/n);
+    printf("average waiting time =%f\n",avgwt/n);
     printf("average turnaround time =%f",avgta/n);
 
 }
